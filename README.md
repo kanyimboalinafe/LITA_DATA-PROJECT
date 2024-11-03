@@ -47,5 +47,11 @@ The following charts were created to show the sales performance
 
 <img width="579" alt="image" src="https://github.com/user-attachments/assets/78cbf726-b270-46bc-8c91-0a9230f521dc">
 
+### LImitations
+ I could not remove the black columns in Excel. Fortunately, it has not affected anything or any value, but it is showing in the pivot table of Excel
+
+ ### Recommendation
+ The company should increase the total sales of products like socks and jackets to generate more revenue
+ For customer data, even though the number of customers who cancelled their subscription did not exceed those who cancelled, but the number was quite hight, the company shuold find strategies to ensure that many customers do not cancel their subscrition to increase the revenue
 
 
