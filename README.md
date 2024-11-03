@@ -43,6 +43,7 @@ The following charts were created to show the sales performance
 
 ### Power BI visualization
 
+<img width="579" alt="image" src="https://github.com/user-attachments/assets/78cbf726-b270-46bc-8c91-0a9230f521dc">
 
 
 
