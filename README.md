@@ -40,6 +40,8 @@ Order by subscription_cancellations DESC
 The following charts were created to show the sales performance
 ![image](https://github.com/user-attachments/assets/d1eaad0c-0cdf-4a68-84dc-213115b1a5de)
 ![image](https://github.com/user-attachments/assets/350b7ad2-16ef-4148-8fca-70990e312458)
+<img width="340" alt="image" src="https://github.com/user-attachments/assets/aa44f370-5a79-40d6-bfbc-7f149c3900f4">
+
 
 ### Power BI visualization
 
