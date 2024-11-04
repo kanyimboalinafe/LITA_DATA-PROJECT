@@ -6,7 +6,7 @@ An Excel dataset *LITA Capstone _Datase_ cvs* consisting of sales and customer d
 ### Data Analysis Tools
 _ SQL (Structured Query Language) for manipulating rational data
 _ PowerBI for Creating reports and Visualization
-_ Microsoft Excel for  Data cleaning, visualization, and data analysis [download_here] (https://microsoft.com)
+_ Microsoft Excel for  Data cleaning, visualization, and data analysis [download here](https://microsoft.com)
 ### Data Cleaning
  Excel was used to clean data by performing the following functions
     _Data loading and inspection
