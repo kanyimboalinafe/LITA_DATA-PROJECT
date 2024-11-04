@@ -1,6 +1,8 @@
 # TITLE: LITA_DATA-PROJECT
 # project Overview
-This data analysis project aims to provide insights into the sales and subscription performance starting from 2023-2024. By examining different aspects of sales data and customers, we aim to identify trends, offer data-driven recommendations, and achieve a deeper understanding of the company's performance.
+
+
+This data analysis project aims to provide insights into sales and subscription performance from 2023 to 2024. By examining different aspects of sales data and customers, we aim to identify trends, offer data-driven recommendations, and better understand the company's performance.
 ### DATA SOurces
 An Excel dataset *LITA Capstone _Datase_ cvs* consisting of sales and customer data was provided 
 ### Data Analysis Tools
@@ -52,6 +54,6 @@ The following charts were created to show the sales performance
 
  ### Recommendation
  The company should increase the total sales of products like socks and jackets to generate more revenue
- For customer data, even though the number of customers who cancelled their subscription did not exceed those who cancelled, but the number was quite hight, the company shuold find strategies to ensure that many customers do not cancel their subscrition to increase the revenue
+ For customer data, even though the number of customers who canceled their subscriptions did not exceed those who canceled, the number was quite high, the company should find strategies to ensure that many customers do not cancel their subscriptions to increase the revenue
 
 
