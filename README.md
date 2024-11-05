@@ -145,14 +145,11 @@ iii Create any other interesting report
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/d2f0f332-9e04-4414-a45a-d5dc7d4015ce">
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/b273767c-ae33-4742-9fb5-d3c514ae4b64">
 <img width="230" alt="image" src="https://github.com/user-attachments/assets/bb1e58a0-b24f-4575-bffd-900e706e2113">
-![image](https://github.com/user-attachments/assets/d1eaad0c-0cdf-4a68-84dc-213115b1a5de)
 ![image](https://github.com/user-attachments/assets/350b7ad2-16ef-4148-8fca-70990e312458)
 
 ### Power BI Visualization for sales data
 <img width="613" alt="image" src="https://github.com/user-attachments/assets/b72ab591-8ff7-4fa6-8efb-aced9834afbf">
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/097374ee-df21-4b9d-affa-3af27a424277">
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/00bcb857-5933-4e06-aa2b-5cefa6be284b">
-
 
 ### Exercise 2 For Customer data; 
 #### SQL DATA ANALYSIS
@@ -235,7 +232,6 @@ select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
 ### Data visualization Excel for Customer data
 ![image](https://github.com/user-attachments/assets/f9b229b0-54d2-4fab-a2f5-65477a8f4eae)
 <img width="368" alt="image" src="https://github.com/user-attachments/assets/b1cee71a-a277-4f3d-b39d-c5f792965a5e">
-<img width="392" alt="image" src="https://github.com/user-attachments/assets/217a5ad5-5508-49f2-b2a6-f91d10ae0a3a">
 
 ### Power BI visualization
 
