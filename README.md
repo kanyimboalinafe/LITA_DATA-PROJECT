@@ -1,22 +1,35 @@
-# TITLE: LITA_DATA-PROJECT
+# TITLE: DATA ANALYSIS WITH LADIES IN TECH-AFRICA (LITA)
 # project Overview
+I was  delighted to receive a congratulatory message from the Incubator Hub in August that I have been selected to start the training in Data Analysis 💻🙂 
 
+The just-concluded 10-month project on data analysis with Ladies in Tech Africa, hosted by Incubator Hub in partnership, was an invaluable learning curve aimed at equipping me with hands-on skills in data analysis and problem-solving in real-life situations. The Practical training, with necessary data skills and insights into the applications of data science across various fields. During this training, I gained skills in using SQL(Structured Query Language), Power BI,  and Microsoft Excel as data analysis software
 
-This data analysis project aims to provide insights into sales and subscription performance from 2023 to 2024. By examining different aspects of sales data and customers, we aim to identify trends, offer data-driven recommendations, and better understand the company's performance.
+At the end of the training we were given a project called "LITA -Capstone Project"
+
+This data analysis project aims to provide insights into sales and subscription performance from 2023 to 2024
+
+By examining different aspects of sales data and customers, we aim to identify trends, offer data-driven recommendations, and better understand the company's performance.
+
 ### DATA SOurces
 An Excel dataset *LITA Capstone _Datase_ cvs* consisting of sales and customer data was provided 
 ### Data Analysis Tools
 _ SQL (Structured Query Language) for manipulating rational data
+
 _ PowerBI for Creating reports and Visualization
+
 _ Microsoft Excel for  Data cleaning, visualization, and data analysis [download here](https://microsoft.com)
 ### Data Cleaning
  Excel was used to clean data by performing the following functions
     _Data loading and inspection
+    
     _Removing duplicates
+    
      _Removing black data
+     
    ### Data Analysis SQL Project 1 FOR SALES DATA
    
     Helped to answer some of the following questions;
+    
      i retrieve the total sales for each product category
      
      ii find the number of sales transactions in each region
@@ -121,12 +134,13 @@ GROUP BY
 
 ### Excel data analysis for sales data
 The following questions were asked;
-I Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month 
+i Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month 
 
  ii Use Excel formulas to calculate metrics such as average sales per product and total revenue by region
  
 iii Create any other interesting report 
 
+![image](https://github.com/user-attachments/assets/419af797-7838-49fc-8cfd-7ba255445335)
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/6d3189cf-1c2c-46f1-9daf-dc3ba1d1da86">
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/d2f0f332-9e04-4414-a45a-d5dc7d4015ce">
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/b273767c-ae33-4742-9fb5-d3c514ae4b64">
@@ -218,7 +232,7 @@ select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
  group by CustomerID
 ```
 
-### Data visualization Excel fro Custo
+### Data visualization Excel for Customer data
 ![image](https://github.com/user-attachments/assets/f9b229b0-54d2-4fab-a2f5-65477a8f4eae)
 <img width="368" alt="image" src="https://github.com/user-attachments/assets/b1cee71a-a277-4f3d-b39d-c5f792965a5e">
 <img width="392" alt="image" src="https://github.com/user-attachments/assets/217a5ad5-5508-49f2-b2a6-f91d10ae0a3a">
@@ -232,6 +246,11 @@ select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
 
  ### Recommendation
  The company should increase the total sales of products like socks and jackets to generate more revenue
+ 
  For customer data, even though the number of customers who canceled their subscriptions did not exceed those who canceled, the number was quite high, the company should find strategies to ensure that many customers do not cancel their subscriptions to increase the revenue
 
+ 🙂
+
+ 💻
+Thank you the Incubator Hub 💃
 
