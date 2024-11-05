@@ -111,6 +111,21 @@ GROUP BY
 	select * from [dbo].[ALINAFE LITA]
 ```
 
+### Excel data analysis for sales data
+The following questions were asked;
+I Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month. 
+ ii Use Excel formulas to calculate metrics such as average sales per product and total revenue by region. 
+iii Create any other interesting report 
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/6d3189cf-1c2c-46f1-9daf-dc3ba1d1da86">
+<img width="219" alt="image" src="https://github.com/user-attachments/assets/d2f0f332-9e04-4414-a45a-d5dc7d4015ce">
+<img width="505" alt="image" src="https://github.com/user-attachments/assets/b273767c-ae33-4742-9fb5-d3c514ae4b64">
+
+
+
+
+
+
 
 
 ### Data visualization Excel
