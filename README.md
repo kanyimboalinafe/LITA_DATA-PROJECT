@@ -14,11 +14,18 @@ _ Microsoft Excel for  Data cleaning, visualization, and data analysis [download
     _Data loading and inspection
     _Removing duplicates
      _Removing black data
-   ### Data Analysis SQL
-     Helped to answer some of the following questions;
+   ### Data Analysis SQL Project 1 FOR SALES DATA
+   
+    Helped to answer some of the following questions;
      i retrieve the total sales for each product category
      ii find the number of sales transactions in each region
      iii  find the top 3 regions by subscription cancellations 
+    iv   find the highest-selling product by total sales value. 
+     v   calculate total revenue per product. 
+    vi   calculate monthly sales totals for the current year. 
+   vii   find the top 5 customers by total purchase amount. 
+viii  calculate the percentage of total sales contributed by each region. 
+ix  identify products with no sales in the last quarter. 
   
   ```SQL 
       SELECT Product, SUM(Revenue) AS TOTAL SALES
@@ -37,7 +44,75 @@ Select Top 3 region, count(canceled) as subscription_cancellations
 from [dbo].[REAL Customer _Data Capstone]
 Group by Region
 Order by subscription_cancellations DESC
+
+```SQL
+  SELECT Top 1 product, SUM(Revenue) AS HIGHEST_SELLING_PRODUCT
+FROM [dbo].[ALINAFE LITA]
+GROUP BY product
+ORDER BY HIGHEST_SELLING_PRODUCT DESC
 ```
+
+```SQL
+SELECT PRODUCT, SUM(Revenue) AS TOTAL_REVENUE
+FROM [dbo].[ALINAFE LITA]
+Group by Product
+```
+
+```SQL
+select OrderDate, Sum(Revenue) AS Monthly sales
+From [dbo].[ALINAFE LITA]
+WHERE OrderDate between '2024-01-01' AND '2024-12-31'
+Group by OrderDate
+Order by OrderDate
+```
+``SQL
+SELECT Top 5 customer_id, SUM(Revenue) AS total_purchase
+FROM [dbo].[ALINAFE LITA]
+GROUP BY customer_id
+ORDER BY total_purchase DESC
+```
+```SQL
+SELECT 
+    Region, 
+    SUM(Revenue) AS region_total_sales, 
+    (SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM[dbo].[ALINAFE LITA] )) AS percentage_of_total_sales 
+FROM 
+   [dbo].[ALINAFE LITA] 
+GROUP BY region,
+```
+
+```SQL
+SELECT 
+    product 
+FROM 
+    [dbo].[ALINAFE LITA]
+WHERE 
+    OrderDate < DATEADD(QUARTER, -1, GETDATE()) 
+GROUP BY 
+    product 
+HAVING 
+    SUM(Revenue) = 0
+```
+
+```SQL
+ SELECT 
+    FORMAT(OrderDate, 'yyyy-MM') AS month, 
+    SUM(Revenue) AS monthly_Total_sales
+FROM 
+    [dbo].[ALINAFE LITA]
+WHERE 
+    YEAR(OrderDate) = YEAR(GETDATE()) 
+GROUP BY 
+    FORMAT(OrderDate, 'yyyy-MM');
+
+	Alter table [dbo].[ALINAFE LITA]
+	drop column total_sales
+
+	select * from [dbo].[ALINAFE LITA]
+```
+
+
+
 ### Data visualization Excel
 The following charts were created to show the sales performance
 ![image](https://github.com/user-attachments/assets/d1eaad0c-0cdf-4a68-84dc-213115b1a5de)
