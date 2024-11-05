@@ -131,6 +131,8 @@ iii Create any other interesting report
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/d2f0f332-9e04-4414-a45a-d5dc7d4015ce">
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/b273767c-ae33-4742-9fb5-d3c514ae4b64">
 <img width="230" alt="image" src="https://github.com/user-attachments/assets/bb1e58a0-b24f-4575-bffd-900e706e2113">
+![image](https://github.com/user-attachments/assets/d1eaad0c-0cdf-4a68-84dc-213115b1a5de)
+![image](https://github.com/user-attachments/assets/350b7ad2-16ef-4148-8fca-70990e312458)
 
 ### Power BI Visualization for sales data
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/43955480-67e6-4a2c-93aa-d3b71fbfc8bb">
@@ -214,10 +216,11 @@ select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
 ```
 
 ### Data visualization Excel
-The following charts were created to show the sales performance
-![image](https://github.com/user-attachments/assets/d1eaad0c-0cdf-4a68-84dc-213115b1a5de)
-![image](https://github.com/user-attachments/assets/350b7ad2-16ef-4148-8fca-70990e312458)
-<img width="340" alt="image" src="https://github.com/user-attachments/assets/aa44f370-5a79-40d6-bfbc-7f149c3900f4">
+![image](https://github.com/user-attachments/assets/f9b229b0-54d2-4fab-a2f5-65477a8f4eae)
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/b1cee71a-a277-4f3d-b39d-c5f792965a5e">
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/217a5ad5-5508-49f2-b2a6-f91d10ae0a3a">
+
+
 
 
 ### Power BI visualization
