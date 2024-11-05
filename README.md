@@ -18,13 +18,21 @@ _ Microsoft Excel for  Data cleaning, visualization, and data analysis [download
    
     Helped to answer some of the following questions;
      i retrieve the total sales for each product category
+     
      ii find the number of sales transactions in each region
+     
      iii  find the top 3 regions by subscription cancellations 
+     
     iv   find the highest-selling product by total sales value. 
+    
      v   calculate total revenue per product. 
+     
     vi   calculate monthly sales totals for the current year. 
+    
    vii   find the top 5 customers by total purchase amount. 
+   
 viii  calculate the percentage of total sales contributed by each region. 
+
 ix  identify products with no sales in the last quarter. 
   
   ```SQL 
@@ -113,20 +121,97 @@ GROUP BY
 
 ### Excel data analysis for sales data
 The following questions were asked;
-I Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month. 
- ii Use Excel formulas to calculate metrics such as average sales per product and total revenue by region. 
+I Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month 
+
+ ii Use Excel formulas to calculate metrics such as average sales per product and total revenue by region
+ 
 iii Create any other interesting report 
 
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/6d3189cf-1c2c-46f1-9daf-dc3ba1d1da86">
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/d2f0f332-9e04-4414-a45a-d5dc7d4015ce">
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/b273767c-ae33-4742-9fb5-d3c514ae4b64">
+<img width="230" alt="image" src="https://github.com/user-attachments/assets/bb1e58a0-b24f-4575-bffd-900e706e2113">
 
+### Power BI Visualization for sales data
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/43955480-67e6-4a2c-93aa-d3b71fbfc8bb">
 
+### Exercise 2 For Customer data; 
+#### SQL DATA ANALYSIS
+I retrieve the total number of customers from each region
 
+``` SQL
+ii SELECT Region, SUM(CustomerID) AS TOTAL_CUSTOMER
+ from [dbo].[REAL Customer _Data Capstone]
+ Group by Region
+```
 
+iii find the most popular subscription type by the number of customers
 
+```SQL
+Select Top 1 SubscriptionType,
+    COUNT(CustomerID) as CustomerCount
+FROM [dbo].[REAL Customer _Data Capstone]
+GROUP BY subscription type
+ORDER BY CustomerCount DESC;
+```
 
+iv Find customers who canceled their subscription within 6 months
 
+```SQL
+SELECT CustomerID
+FROM[dbo].[REAL Customer _Data Capstone]
+WHERE canceled = '1' 
+AND subscription_Duration <= 6
+Group by CustomerID
+```
+
+v Calculate the average subscription duration for all customers
+
+ ```SQL
+ SELECT AVG(Subscription_Duration) AS Average_Duration
+FROM [dbo].[REAL Customer _Data Capstone]
+```
+
+vi Find customers with subscriptions longer than 12 months
+
+```SQL
+Select CustomerID
+FROM [dbo].[REAL Customer _Data Capstone]
+WHERE Subscription_Duration > 12
+```
+
+vi calculate total revenue by subscription type
+
+```SQL
+Select SubscriptionType, sum(Revenue)as Total_Revenue
+from [dbo].[REAL Customer _Data Capstone]
+group by subscription type
+```
+
+vii Find the top 3 regions by subscription cancellations
+
+```SQL 
+Select Top 3 region, count(canceled) as subscription_cancellations
+from [dbo].[REAL Customer _Data Capstone]
+Group by Region
+Order by subscription_cancellations DESC
+```
+
+Viii Find the total number of active and canceled subscriptions
+
+```SQL
+select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
+ from [dbo].[REAL Customer _Data Capstone]
+ Where Canceled = '1'
+ group by CustomerID
+```
+
+```SQL
+ select customerID,count(canceled) AS NON_ACTIVE_CANCELLATIONS
+ from [dbo].[REAL Customer _Data Capstone]
+ Where Canceled = '0'
+ group by CustomerID
+```
 
 ### Data visualization Excel
 The following charts were created to show the sales performance
