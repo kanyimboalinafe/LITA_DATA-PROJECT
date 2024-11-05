@@ -135,7 +135,10 @@ iii Create any other interesting report
 ![image](https://github.com/user-attachments/assets/350b7ad2-16ef-4148-8fca-70990e312458)
 
 ### Power BI Visualization for sales data
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/43955480-67e6-4a2c-93aa-d3b71fbfc8bb">
+<img width="613" alt="image" src="https://github.com/user-attachments/assets/b72ab591-8ff7-4fa6-8efb-aced9834afbf">
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/097374ee-df21-4b9d-affa-3af27a424277">
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/00bcb857-5933-4e06-aa2b-5cefa6be284b">
+
 
 ### Exercise 2 For Customer data; 
 #### SQL DATA ANALYSIS
@@ -215,13 +218,10 @@ select customerID,count(canceled) AS ACTIVE_CANCELLATIONS
  group by CustomerID
 ```
 
-### Data visualization Excel
+### Data visualization Excel fro Custo
 ![image](https://github.com/user-attachments/assets/f9b229b0-54d2-4fab-a2f5-65477a8f4eae)
 <img width="368" alt="image" src="https://github.com/user-attachments/assets/b1cee71a-a277-4f3d-b39d-c5f792965a5e">
 <img width="392" alt="image" src="https://github.com/user-attachments/assets/217a5ad5-5508-49f2-b2a6-f91d10ae0a3a">
-
-
-
 
 ### Power BI visualization
 
